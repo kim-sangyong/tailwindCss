@@ -1,0 +1,52 @@
+/* src/assets/styles/Global.css */
+@import './animations.css';
+
+body, html{
+margin: 0;
+padding: 0;
+height: 100%;
+}
+
+
+.Dev {
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  color: white;
+  font-size: 5rem;
+  text-shadow: 3px -5px 2px rgba(0, 0, 0, 0.5); 
+  margin: 20px 0px;
+  border-bottom: solid 2px;
+  animation: appear 2s ease-in-out;
+  
+}
+
+.My-name{
+  position: absolute;
+  padding-top: 30px;
+  top: 27%;
+  left: 20%;
+  color: white;
+  font-size: 2rem;
+  text-shadow: 3px 3px 2px rgba(0, 0, 0, 0.5);
+  animation: name-appear 2s ease-in-out;
+}
+
+.Photo {
+  /* position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 0px;
+  width: 20%;
+  height: auto;
+  filter: grayscale(100%); */
+  animation: Photo-appear 2s ease-in-out;
+}
+
+.Section-2 {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  text-align: center;
+  height: 100vh;
+}
