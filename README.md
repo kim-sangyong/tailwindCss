@@ -59,3 +59,19 @@ font-bold: 700
 font-extrabold: 800
 font-black: 900
 
+* ( Flexbox 또는 Grid를 사용한 위치 배치 ) *
+
+  flex justify-center : 가로 방향에서 가운데 정렬
+  flex items-center : 세로 방향에서 가운데 정렬
+
+  * ( Grid 사용 예시 ) *
+ 
+  grid place-items : 그리드 셀의 가운데에 배치
+  grid h-screen : 전체 화면 높이를 사용
+
+  * ( 마진을 사용한 이동 ) *
+
+  mt-10: 위쪽에 10단위의 마진
+  ml-5: 왼쪽에 5단위의 마진
+
+  
